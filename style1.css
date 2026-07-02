@@ -22,3 +22,9 @@ p {
 #abrir-uol:hover {
     background-color: #f0f0f0;
 }
+
+/* Formatar a lista */
+ul {
+    list-style-type: disc; /* Tipo de marcador */
+    padding-left: 20px; /* Espaçamento à esquerda */
+}
