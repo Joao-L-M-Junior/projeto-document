@@ -1,0 +1,24 @@
+/* Estilo para o título */
+h1 {
+    color: rgb(172, 109, 50);
+    font-size: 2em;
+}
+/* Estilo para o parágrafo */
+p {
+    color: rgb(100, 100, 100);
+    font-size: 1.2em;
+}
+/* Cor padrão do botão */
+#abrir-uol {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Deixa a mudança de cor suave */
+}
+
+/* Efeito de Hover (quando o mouse passa por cima) */
+#abrir-uol:hover {
+    background-color: #f0f0f0;
+}
