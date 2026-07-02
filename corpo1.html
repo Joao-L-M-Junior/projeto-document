@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Documento</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    
+    <h1>Meu Documento</h1>
+    <p>Bem-vindo ao meu documento!</p>
+    <h2>Seção 1</h2>
+    <p>Este é o conteúdo da seção 1.</p>
+<! -- Adicionar botão para abrir o link http://uol.com.br -->
+    <button id="abrir-uol">Abrir UOL</button>
+    <script>
+        document.getElementById('abrir-uol').addEventListener('click', function() {
+            window.open('http://uol.com.br', '_blank');
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
