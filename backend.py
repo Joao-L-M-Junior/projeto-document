@@ -8,7 +8,7 @@ PORT = 8000
 # Configura o manipulador de requisições do servidor para a pasta atual
 Handler = http.server.SimpleHTTPRequestHandler
 
-print(#f"Servidor iniciado em http://localhost:{PORT}")
+print(f"Servidor iniciado em http://localhost:{PORT}")
 print("Para derrubar o servidor, pressione CTRL+C no terminal.")
 
 # Abre automaticamente o seu navegador na página do projeto
